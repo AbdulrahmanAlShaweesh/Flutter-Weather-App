@@ -14,14 +14,14 @@ class NoWeatherBodyBuilder extends StatelessWidget {
         children: [
           CustomText(
             text: 'there is no weather 😔 start',
-            fontSize: 18.0,
+            fontSize: 22.0,
           ),
           SizedBox(
             height: 5.0,
           ),
           CustomText(
             text: 'searching now 🔍',
-            fontSize: 18.0,
+            fontSize: 22.0,
           ),
         ],
       ),
